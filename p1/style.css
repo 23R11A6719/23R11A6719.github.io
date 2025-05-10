@@ -10,7 +10,7 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: gray;
+    background-color:#87aac8;
     color: black;
     padding: 10px;
 }
@@ -59,7 +59,7 @@ a{
 }
 
 #projects {
-  background-color: #e0e0e0;
+  background-color: #87aac8;
   padding: 40px 20px;
 }
 
@@ -112,7 +112,7 @@ a{
 footer{
     padding:50px;
     text-align: center;
-    background-color: gray;
+    background-color: rgb(195, 218, 236);
     color: black;
     font-size: large;
 }
@@ -125,7 +125,7 @@ footer{
 
 /* SERVICES */
 .services-section {
-  background-color: #f4f4f4;
+  background-color:#87aac8;
   padding: 40px 20px;
 }
 
@@ -150,7 +150,7 @@ footer{
 /* ABOUT */
 .about-section {
   padding: 40px 20px;
-  background-color:gainsboro;
+  background-color:#87aac8;
   text-align: center;
 }
 
@@ -164,7 +164,7 @@ footer{
 
 /* CONTACT */
 .contact-section {
-  background-color: #f4f4f4;
+  background-color:#87aac8;
   padding: 40px 20px;
   text-align: center;
 }
