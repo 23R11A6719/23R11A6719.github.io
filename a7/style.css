@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #86209d, #86209d);
+  background: linear-gradient(to right, #7cb6c0, #4bb8eb);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -37,7 +37,7 @@ input[type=number] {
 button {
   width: 100%;
   padding: 12px;
-  background-color: #86209d;
+  background-color: #34b0e0;
   color: white;
   font-size: 16px;
   border: none;
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-  background-color: #86209d;
+  background-color: #5ec6d8;
 }
 
 .results {
