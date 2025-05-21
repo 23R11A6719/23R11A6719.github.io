@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  color: #333;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section Titles */
+h2 {
+  position: relative;
+  color: #343a40;
+  margin-bottom: 1.5rem;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+h2::after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color: #0d6efd;
+  margin-top: 10px;
+}
+
+/* Cards (Projects) */
+.card {
+  border: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(to top right, #000000, #e3f2fd);
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+/* Header & Footer */
+header, footer {
+  background: linear-gradient(to right, #0d6efd, #4378aa);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Navigation */
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Contact Links */
+a {
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #6610f2;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Section Animation */
+.section {
+  animation: fadeInUp 1s ease-out both;
+  animation-delay: 0.3s;
+  padding: 60px 20px;
+}
+
+/* Individual Section Backgrounds */
+.section-about {
+  background-color: #4584a1; /* Light gray */
+}
+
+.section-projects {
+  background-color: #425f7b; /* White */
+}
+
+.section-services {
+  background-color: #9dbad6; /* Lightest gray */
+}
+
+.section-contact {
+  background-color: #3c4e61; /* Very light gray */
+}
+
+/* Custom Scrollbar (Optional) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0d6efd;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e9ecef;
+}
