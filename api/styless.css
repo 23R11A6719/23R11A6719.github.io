@@ -1,0 +1,66 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e5e5f7; /* soft lavender */
+  padding: 30px;
+  color: #2e2e2e;
+}
+
+h1 {
+  text-align: center;
+  color: #5e2b97; /* rich purple */
+  margin-bottom: 40px;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+li {
+  background-color: #ffffff; /* pure white for contrast */
+  border-left: 6px solid #26a69a; /* teal accent */
+  padding: 20px 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+li:hover {
+  transform: scale(1.02);
+}
+
+li a {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #512da8; /* deep purple link */
+  margin-bottom: 5px;
+}
+
+li p {
+  margin: 10px 0;
+  color: #444;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 22px;
+  background-color: #009688; /* teal */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #00796b; /* darker teal */
+}
